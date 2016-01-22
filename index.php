@@ -101,7 +101,7 @@ include('php/nono.php');
                                 height="203.91318"
                                 width="219.90637"
                                 id="tete"
-                                style="opacity:1;fill:#93A1A1;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                                style="opacity:1;fill:#9EADAD;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                             <rect
                                 ry="7.1172495"
                                 y="556.32141"
@@ -109,7 +109,7 @@ include('php/nono.php');
                                 height="41.315739"
                                 width="149.26979"
                                 id="pied"
-                                style="opacity:1;fill:#93A1A1;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                                style="opacity:1;fill:#9EADAD;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                             <text
                                 id="C"
                                 y="215.34686"
