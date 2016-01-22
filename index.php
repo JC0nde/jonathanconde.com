@@ -77,74 +77,39 @@ include('php/nono.php');
             <!-- Logo -->
             <a id="main_logo_wrapper" href="#accueil" data-slide="0" class="active">
                 <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="160mm"
-                    height="150mm"
                     viewBox="0 0 744.09449 1052.3622"
                     id="main_logo_svg"
                     version="1.1">
                     <g
-                        id="layer1"
-                        transform="matrix(1.6907004,0,0,1.6907004,-206.71557,-124.71395)">
-                        <g
-                            id="g4522"
-                            transform="translate(0,4.6844494)">
-                            <path
-                                style="opacity:0.045;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.54899979;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter5211)"
-                                d="M 295.15337,695.02651 C 207.7247,691.74493 138.71558,683.74488 91.657568,671.43579 10.918964,650.31678 21.608045,622.8262 118.05204,603.5535 c 31.21485,-6.23776 71.2819,-11.09044 126.59004,-15.33181 33.46352,-2.56619 174.17388,-2.13093 209.52832,0.64814 104.54038,8.21749 171.08055,22.60706 192.02068,41.52521 6.16024,5.5654 7.35659,10.33434 3.96794,15.81729 -13.57862,21.97066 -96.08045,39.9514 -215.94369,47.06351 -22.10667,1.3117 -118.44487,2.52452 -139.06196,1.75067 z"
-                                id="ombre"
-                                transform="matrix(1.0062784,0,0,0.8519693,-3.351003,59.077553)" />
-                            <rect
-                                ry="35.528927"
-                                y="82.436775"
-                                x="398.03024"
-                                height="203.91318"
-                                width="219.90637"
-                                id="tete"
-                                style="opacity:1;fill:#9EADAD;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                            <rect
-                                ry="7.1172495"
-                                y="556.32141"
-                                x="398.74399"
-                                height="41.315739"
-                                width="149.26979"
-                                id="pied"
-                                style="opacity:1;fill:#9EADAD;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                            <text
-                                id="C"
-                                y="215.34686"
-                                x="446.25922"
-                                style="font-style:normal;font-weight:normal;font-size:94.94328308px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#353535;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                                xml:space="preserve"><tspan
-                                                         y="215.34686"
-                                                         x="446.25922"
-                                                         id="tspan4747-2-2">C</tspan></text>
-                            <ellipse
-                                transform="matrix(-0.16323526,0.98658717,0.774137,0.63301809,0,0)"
-                                ry="6.6638293"
-                                rx="12.296526"
-                                cy="675.66418"
-                                cx="-263.64423"
-                                id="oeil"
-                                style="opacity:0.98000004;fill:#353535;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                            <rect
-                                ry="24.910364"
-                                y="223.35985"
-                                x="70.429031"
-                                height="352.34674"
-                                width="379.23077"
-                                id="dos"
-                                style="opacity:1;fill-opacity:1;stroke:none;stroke-width:5.32700014;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                            <text
-                                id="J"
-                                y="457.29449"
-                                x="334.35229"
-                                style="font-style:normal;font-weight:normal;font-size:197.07318115px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#D4D4D4;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-                                xml:space="preserve"><tspan
-                                                         y="457.29449"
-                                                         x="334.35229"
-                                                         id="tspan4686-9-9-7">J</tspan></text>
-                        </g>
+                        transform="matrix(1.6907004,0,0,1.6907004,-206.71557,-124.71395)"
+                        id="layer1">
+                        <path
+                            transform="matrix(0.99409894,0.10847721,-0.10893863,0.99404848,0,0)"
+                            d="M 623.02227,317.16951 A 252.5881,252.05904 0 0 1 493.21919,569.21169 252.5881,252.05904 0 0 1 210.6037,541.52911 252.5881,252.05904 0 0 1 132.3881,269.11121 252.5881,252.05904 0 0 1 357.43311,96.281022"
+                            id="path4403"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:46.99908284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            transform="matrix(0.9944716,0.10500589,-0.11253675,0.99364756,0,0)"
+                            d="M 549.31773,329.24162 A 174.88603,169.00311 0 0 1 459.01422,498.4597 174.88603,169.00311 0 0 1 263.01716,479.06365 174.88603,169.00311 0 0 1 210.08,295.67036 174.88603,169.00311 0 0 1 367.38897,181.03696"
+                            id="change2"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.05996704;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            transform="matrix(0.99409894,0.10847721,-0.10893863,0.99404848,0,0)"
+                            d="M 466.06531,336.19232 A 92.7369,92.542633 0 0 1 416.83712,429.5642 92.7369,92.542633 0 0 1 311.95607,416.23823 92.7369,92.542633 0 0 1 287.74545,313.53536 92.7369,92.542633 0 0 1 375.67399,254.94773"
+                            id="path4403-3"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.05412513;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            id="path4435-4-7"
+                            d="M 426.78071,383.02383 425.68014,132.96042"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.04998016;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            id="change1"
+                            d="M 509.14488,383.57758 508.04431,133.51417"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.04998398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            id="path4435-4-7-7"
+                            d="M 585.01356,383.01139 583.91299,132.94798"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.04998398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                     </g>
                 </svg>
             </a>

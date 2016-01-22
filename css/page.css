@@ -126,22 +126,23 @@ main{
   transition-duration: 1.2s;
   transition-timing-function: cubic-bezier(0.4, 0.1, 0.4, 1);
 }
-#main_logo_svg #dos {
-  fill: #DC322F;
-  transition: fill linear .65s;
+#main_logo_svg #change1, #main_logo_svg #change2 {
+  stroke: #DC322F;
+  transition: stroke linear .65s;
 }
-.vue_2 #main_logo_svg #dos {
-  fill: #859900;
+.vue_2 #main_logo_svg #change1, .vue_2 #main_logo_svg #change2 {
+  stroke: #859900;
 }
-.vue_3 #main_logo_svg #dos {
-  fill: #1B4E68;
+.vue_3 #main_logo_svg #change1, .vue_3 #main_logo_svg #change2 {
+  stroke: #1B4E68;
 }
-.vue_4 #main_logo_svg #dos {
-  fill: #282828;
+.vue_4 #main_logo_svg #change1, .vue_4 #main_logo_svg #change2 {
+  stroke: #6C71C4;
 }
-.vue_5 #main_logo_svg  #dos{
-  fill: #D1991E;
+.vue_5 #main_logo_svg #change1, .vue_5 #main_logo_svg #change2 {
+  stroke: #D1991E;
 }
+
 /* FLÉCHE NEXT */
 #arrow_down {
   bottom: -12%;
