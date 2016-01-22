@@ -91,25 +91,25 @@ include('php/nono.php');
                         <path
                             transform="matrix(0.9944716,0.10500589,-0.11253675,0.99364756,0,0)"
                             d="M 549.31773,329.24162 A 174.88603,169.00311 0 0 1 459.01422,498.4597 174.88603,169.00311 0 0 1 263.01716,479.06365 174.88603,169.00311 0 0 1 210.08,295.67036 174.88603,169.00311 0 0 1 367.38897,181.03696"
-                            id="change2"
+                            id="change1"
                             style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.05996704;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                         <path
-                            transform="matrix(0.99409894,0.10847721,-0.10893863,0.99404848,0,0)"
-                            d="M 466.06531,336.19232 A 92.7369,92.542633 0 0 1 416.83712,429.5642 92.7369,92.542633 0 0 1 311.95607,416.23823 92.7369,92.542633 0 0 1 287.74545,313.53536 92.7369,92.542633 0 0 1 375.67399,254.94773"
-                            id="path4403-3"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.05412513;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                        <path
                             id="path4435-4-7"
-                            d="M 426.78071,383.02383 425.68014,132.96042"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.04998016;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                            d="M 427.01392,383.60417 425.91597,132.91436"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.09885025;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                         <path
-                            id="change1"
+                            id="change2"
                             d="M 509.14488,383.57758 508.04431,133.51417"
                             style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.04998398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                         <path
                             id="path4435-4-7-7"
                             d="M 585.01356,383.01139 583.91299,132.94798"
                             style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.04998398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            transform="matrix(0.9944716,0.10500589,-0.11253675,0.99364756,0,0)"
+                            d="m 468.0802,343.37799 a 89.756065,86.736801 0 0 1 -50.30792,83.55887 89.756065,86.736801 0 0 1 -99.0818,-13.33135 89.756065,86.736801 0 0 1 -24.77423,-93.66109 89.756065,86.736801 0 0 1 80.30841,-57.64309"
+                            id="path4403-4-7"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.05011368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                     </g>
                 </svg>
             </a>
