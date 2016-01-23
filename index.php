@@ -10,7 +10,7 @@ include('php/nono.php');
         <title>Jonathan Conde | Webdesigner | Lausanne</title>
 
         <meta name="author" content="Jonathan Conde">
-        <meta name="description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos">
+        <meta name="description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos. Développement sur Wordpress et Drupal.">
 
         <link href="http://www.jonathanconde.com" rel="canonical">
 
@@ -19,7 +19,7 @@ include('php/nono.php');
         <meta content="fr_CH" property="og:locale">
         <meta property="og:url" content="http://www.jonathanconde.com" />
         <meta property="og:image" content="http://www.jonathanconde.com/images/siteImageJason-ld.png" />
-        <meta property="og:description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos."/>
+        <meta property="og:description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos. Développement sur Wordpress et Drupal."/>
 
         <meta name="HandheldFriendly" content="true">
         <meta name="MobileOptimized" content="320">
@@ -107,7 +107,8 @@ include('php/nono.php');
                             cy="378.59042"
                             cx="336.34995"
                             id="path4466"
-                            style="fill:#9eadad;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62592328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />            </g>
+                            style="fill:#9eadad;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62592328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                    </g>
                 </svg>
             </a>
             <!-- flèche next & menu -->
@@ -224,7 +225,7 @@ include('php/nono.php');
                                     <div class="swiper-slide">
                                         <figure class="slides">
                                             <a href="http://www.w3schools.com">
-                                                <img src="images/building.png" class="landscape"/>
+                                                <img src="images/building.png" alt="Screenshot et lien vers la fiche technique de mon actuel portfolio" class="landscape"/>
                                                 <span></span>
                                             </a>
                                             <i></i>
@@ -234,7 +235,7 @@ include('php/nono.php');
                                     <div class="swiper-slide">
                                         <figure class="slides">
                                             <a href="http://www.w3schools.com" target="_blank">
-                                                <img src="images/Formule1.1.png" class="landscape"/>
+                                                <img src="images/Formule1.1.png" alt="Home page: Formule 1 en noir/blanc et uniquement avec des symboles typographiques " class="landscape"/>
                                                 <span></span>
                                             </a>
                                             <i></i>
@@ -244,7 +245,7 @@ include('php/nono.php');
                                     <div class="swiper-slide">
                                         <figure class="slides">
                                             <a href="http://www.w3schools.com" target="_blank">
-                                                <img src="images/pic2.jpg" class="landscape"/>
+                                                <img src="images/pic2.jpg" alt="Image de chatons trops cons :3" class="landscape"/>
                                                 <span></span>
                                             </a>
                                             <i></i>
@@ -254,7 +255,7 @@ include('php/nono.php');
                                     <div class="swiper-slide">
                                         <figure class="slides">
                                             <a href="http://www.w3schools.com" target="_blank">
-                                                <img src="images/muppet.png" class="landscape"/>
+                                                <img src="images/muppet.png" alt="Mon fond d'écran actuel <3" class="landscape"/>
                                                 <span></span>
                                             </a>
                                             <i></i>
