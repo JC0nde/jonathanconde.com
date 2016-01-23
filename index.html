@@ -85,32 +85,29 @@ include('php/nono.php');
                         id="layer1">
                         <path
                             transform="matrix(0.99409894,0.10847721,-0.10893863,0.99404848,0,0)"
-                            d="M 623.02227,317.16951 A 252.5881,252.05904 0 0 1 493.21919,569.21169 252.5881,252.05904 0 0 1 210.6037,541.52911 252.5881,252.05904 0 0 1 132.3881,269.11121 252.5881,252.05904 0 0 1 357.43311,96.281022"
+                            d="M 580.64658,313.63921 A 205.7471,205.31613 0 0 1 408.71135,541.44648 205.7471,205.31613 0 0 1 174.50053,378.01754 205.7471,205.31613 0 0 1 329.90524,138.67551"
                             id="path4403"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:46.99908284;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:105.40011597;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                         <path
-                            transform="matrix(0.9944716,0.10500589,-0.11253675,0.99364756,0,0)"
-                            d="M 549.31773,329.24162 A 174.88603,169.00311 0 0 1 459.01422,498.4597 174.88603,169.00311 0 0 1 263.01716,479.06365 174.88603,169.00311 0 0 1 210.08,295.67036 174.88603,169.00311 0 0 1 367.38897,181.03696"
                             id="change1"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.05996704;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                        <path
-                            id="path4435-4-7"
-                            d="M 427.01392,383.60417 425.91597,132.91436"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.09885025;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                        <path
-                            id="change2"
-                            d="M 509.14488,383.57758 508.04431,133.51417"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.04998398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                        <path
-                            id="path4435-4-7-7"
-                            d="M 585.01356,383.01139 583.91299,132.94798"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.04998398;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                            d="M 427.03324,383.62351 425.89665,162.93528"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.07203674;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
                         <path
                             transform="matrix(0.9944716,0.10500589,-0.11253675,0.99364756,0,0)"
-                            d="m 468.0802,343.37799 a 89.756065,86.736801 0 0 1 -50.30792,83.55887 89.756065,86.736801 0 0 1 -99.0818,-13.33135 89.756065,86.736801 0 0 1 -24.77423,-93.66109 89.756065,86.736801 0 0 1 80.30841,-57.64309"
-                            id="path4403-4-7"
-                            style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.05011368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-                    </g>
+                            d="m 467.28946,336.38996 a 89.756065,86.736801 0 0 1 -62.51407,88.26315 89.756065,86.736801 0 0 1 -103.65745,-37.4934 89.756065,86.736801 0 0 1 12.8208,-106.23745"
+                            id="change2"
+                            style="opacity:1;fill:none;fill-opacity:1;stroke-width:47.05011368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <path
+                            id="path4434"
+                            d="M 330.19286,381.66709 Z"
+                            style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.1711123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+                        <ellipse
+                            ry="27"
+                            rx="27"
+                            cy="378.59042"
+                            cx="336.34995"
+                            id="path4466"
+                            style="fill:#9eadad;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62592328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />            </g>
                 </svg>
             </a>
             <!-- flèche next & menu -->
