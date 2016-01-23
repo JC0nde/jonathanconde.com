@@ -224,7 +224,7 @@ include('php/nono.php');
                                 <div class="swiper-wrapper johnnysSlider">
                                     <div class="swiper-slide">
                                         <figure class="slides">
-                                            <a href="http://www.w3schools.com">
+                                            <a href="#">
                                                 <img src="images/building.png" alt="Screenshot et lien vers la fiche technique de mon actuel portfolio" class="landscape"/>
                                                 <span></span>
                                             </a>
@@ -234,7 +234,7 @@ include('php/nono.php');
                                     </div>
                                     <div class="swiper-slide">
                                         <figure class="slides">
-                                            <a href="http://www.w3schools.com" target="_blank">
+                                            <a href="#" target="_blank">
                                                 <img src="images/Formule1.1.png" alt="Home page: Formule 1 en noir/blanc et uniquement avec des symboles typographiques " class="landscape"/>
                                                 <span></span>
                                             </a>
@@ -244,7 +244,7 @@ include('php/nono.php');
                                     </div>
                                     <div class="swiper-slide">
                                         <figure class="slides">
-                                            <a href="http://www.w3schools.com" target="_blank">
+                                            <a href="#" target="_blank">
                                                 <img src="images/pic2.jpg" alt="Image de chatons trops cons :3" class="landscape"/>
                                                 <span></span>
                                             </a>
@@ -254,7 +254,7 @@ include('php/nono.php');
                                     </div>
                                     <div class="swiper-slide">
                                         <figure class="slides">
-                                            <a href="http://www.w3schools.com" target="_blank">
+                                            <a href="#" target="_blank">
                                                 <img src="images/muppet.png" alt="Mon fond d'écran actuel <3" class="landscape"/>
                                                 <span></span>
                                             </a>
