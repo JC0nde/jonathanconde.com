@@ -42,9 +42,9 @@ Header append Vary User-Agent env=!dont-vary
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options: "nosniff”
 Header always set X-FRAME-OPTIONS "DENY"
-Header always set X-XSS-Protection "1; mode=block"
-Header always set X-Content-Type-Options "nosniff"
 Header set Content-Security-Policy "script-src 'self' http://fonts.gstatic.com https://ajax.googleapis.com"
  <FilesMatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf)$">
  Header set Cache-Control "max-age=2592000, public"
@@ -55,13 +55,13 @@ Header set Content-Security-Policy "script-src 'self' http://fonts.gstatic.com h
  <FilesMatch "\\.(js)$">
  Header set Cache-Control "max-age=2592000, private"
  </FilesMatch>
-<filesMatch "\\.(html|htm)$">
-Header set Cache-Control "max-age=7200, public"
-</filesMatch>
+ <FilesMatch "\\.(html|htm)$">
+ Header set Cache-Control "max-age=7200, public"
+ </FilesMatch>
 # Disable caching for scripts and other dynamic files
-<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
-Header unset Cache-Control
-</FilesMatch>
+  <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+  Header unset Cache-Control
+  </FilesMatch>
 </IfModule>
 # END Cache-Control Headers
 

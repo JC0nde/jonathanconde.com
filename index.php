@@ -12,12 +12,12 @@ include('php/nono.php');
         <meta name="author" content="Jonathan Conde">
         <meta name="description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos. Développement sur Wordpress et Drupal.">
 
-        <link href="http://www.jonathanconde.com" rel="canonical">
+        <link href="http://www.jonathanconde.com/" rel="canonical">
 
         <meta property="og:title" content="Jonathan Conde | Webdesigner | Lausanne" />
         <meta property="og:type" content="website" />
         <meta content="fr_CH" property="og:locale">
-        <meta property="og:url" content="http://www.jonathanconde.com" />
+        <meta property="og:url" content="http://www.jonathanconde.com/" />
         <meta property="og:image" content="http://www.jonathanconde.com/images/siteImageJason-ld.png" />
         <meta property="og:description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos. Développement sur Wordpress et Drupal."/>
 
