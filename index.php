@@ -10,9 +10,7 @@ include('php/nono.php');
         <title>Jonathan Conde | Webdesigner | Lausanne</title>
 
         <meta name="author" content="Jonathan Conde">
-        <meta name="description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos. Développement sur Wordpress et Drupal.">
-
-        <link href="http://www.jonathanconde.com" rel="canonical">
+        <meta name="description" content="Portfolio de Jonathan Conde, webdesigner freelance habitant à Lausanne. Conception de sites internet et de logos, développement sur Wordpress et Drupal.">
 
         <meta property="og:title" content="Jonathan Conde | Webdesigner | Lausanne" />
         <meta property="og:type" content="website" />
@@ -25,7 +23,6 @@ include('php/nono.php');
         <meta name="MobileOptimized" content="320">
 
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-        <meta name="keywords" content="Jonathan Conde, Conde, web design, portfolio, front end, webdesign, design, html, css, jquery, php, lausanne, cv, site internet, graphisme">
 
         <!-- Twitter card -->
         <meta name="twitter:card" content="summary_large_image">
