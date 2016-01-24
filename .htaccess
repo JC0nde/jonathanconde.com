@@ -3,8 +3,11 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^jonathanconde.com
 RewriteRule (.*) http://www.jonathanconde.com$1 [R=301,L]
 
+RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
+RewriteRule .* ? [F,L]
+
 SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript
 
 <IfModule mod_expires.c>
  ExpiresActive On
