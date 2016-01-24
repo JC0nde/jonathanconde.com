@@ -1,13 +1,10 @@
-AddDefaultCharset "utf-8"
-DefaultLanguage "fr-CH"
-# Redirection
 RewriteEngine On
 
 RewriteCond %{HTTP_HOST} ^jonathanconde.com
 RewriteRule (.*) http://www.jonathanconde.com$1 [R=301,L]
 
 SetOutputFilter DEFLATE
-AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml
 
 <IfModule mod_expires.c>
  ExpiresActive On
@@ -61,3 +58,6 @@ deny from all
 </files>
 
 Options -Indexes
+
+AddDefaultCharset "utf-8"
+DefaultLanguage "fr-CH"
