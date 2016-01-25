@@ -89,7 +89,7 @@ $(document).ready(function(){
         $(".social_list").toggleClass('socialed');
     });
 
-    emailE='jonathanconde.com';
-    emailE=('mail' + '@' + emailE);
-    $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
+    sisi='jonathanconde.com';
+    sisi=('mail' + '@' + sisi);
+    $("#nono").append('<a href="mailto:' + sisi + '">' + sisi + '</a>');
 });
