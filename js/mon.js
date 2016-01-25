@@ -88,4 +88,8 @@ $(document).ready(function(){
     $("#social_list").on("mouseenter mouseleave",function(){
         $(".social_list").toggleClass('socialed');
     });
+
+    emailE='jonathanconde.com';
+    emailE=('mail' + '@' + emailE);
+    $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
 });
