@@ -1,10 +1,14 @@
 RewriteEngine On
-
 RewriteCond %{HTTP_HOST} ^jonathanconde.com
 RewriteRule (.*) http://www.jonathanconde.com$1 [R=301,L]
 
+AddDefaultCharset "utf-8"
+DefaultLanguage "fr-CH"
+
 SetOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+Header append Vary User-Agent env=!dont-vary
 
 <IfModule mod_expires.c>
  ExpiresActive On
@@ -58,6 +62,3 @@ deny from all
 </files>
 
 Options -Indexes
-
-AddDefaultCharset "utf-8"
-DefaultLanguage "fr-CH"
