@@ -38,18 +38,18 @@
      inkscape:window-height="1050"
      id="namedview8"
      showgrid="false"
-     inkscape:zoom="5.4976362"
-     inkscape:cx="-3.1987619"
-     inkscape:cy="-18.087157"
+     inkscape:zoom="3.4090815"
+     inkscape:cx="-122.6717"
+     inkscape:cy="-1.8359051"
      inkscape:window-x="12"
      inkscape:window-y="12"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     fill="#00D3E6"
      d="M.6 51h16.7c1.3 0 1.3-1.3 0-1.3H.6c-1.2 0-1.2 1.3 0 1.3zM.6 44.6h16.7c1.3 0 1.3-1.3 0-1.3H.6c-1.2 0-1.2 1.3 0 1.3zM1.6 38.2H10c1.3 0 1.3-1.3 0-1.3H1.6c-1.2.1-1.2 1.3 0 1.3z"
      id="path4"
-     style="fill:#ec2024;fill-opacity:1" />
+     style="fill:#ec2024;fill-opacity:1"
+     fill="#00D3E6" />
   <path
      fill="none"
      stroke="#444"
@@ -57,5 +57,5 @@
      stroke-miterlimit="10"
      d="M25.2 34.9c-3.7-6.6-11.3-10.5-19.2-9-10 1.7-16.6 11.3-14.9 21.3 1.1 6.4 5.4 11.4 11 13.7M46.2 44.1H27.3c0 4.5-1.7 8.6-4.4 11.8l1 5.2-4.9-1.7c-2.9 1.9-6.3 3-10 3h-.5V69c0 2.8 2.3 5.1 5.1 5.1h32.6c2.8 0 5.1-2.3 5.1-5.1V49.3c0-2.9-2.3-5.2-5.1-5.2z"
      id="path6"
-     style="stroke:#9eadaf;stroke-opacity:0.94117647" />
+     style="stroke:#9eadaf;stroke-opacity:0.94117647;stroke-width:2.5;stroke-miterlimit:10;stroke-dasharray:none" />
 </svg>

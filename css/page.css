@@ -1644,10 +1644,10 @@ swiper-container-v {
   #main_logo_svg {
     bottom: 1.5vh;
     height: 26vh;
+    width: 26vh;
     -webkit-transform: scale(.39, .4);
     -ms-transform: scale(.39, .4);
     transform: scale(0.39, 0.4);
-    width: 26vh;
   }
   .vue_1 #main_logo_svg {
     bottom: 40vh;
