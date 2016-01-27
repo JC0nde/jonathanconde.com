@@ -159,7 +159,7 @@ main{
   transition-property: -webkit-transform, bottom;
   transition-property: transform, bottom;
   transition-timing-function: ease;
-  width: 36vh;
+  width: 32vh;
   will-change: transform;
   z-index: 5;
 }
@@ -1643,11 +1643,11 @@ swiper-container-v {
   }
   #main_logo_svg {
     bottom: 1.5vh;
-    height: 28vh;
+    height: 26vh;
     -webkit-transform: scale(.39, .4);
     -ms-transform: scale(.39, .4);
     transform: scale(0.39, 0.4);
-    width: 32vh;
+    width: 26vh;
   }
   .vue_1 #main_logo_svg {
     bottom: 40vh;
