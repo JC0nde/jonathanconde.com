@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
     setTimeout(function(){
         $("body").addClass("fixed");
     }, 350);

@@ -221,7 +221,7 @@ main{
 #arrow_down i::after, #arrow_down i::before {
                         animation-duration: 1s;
                         animation-iteration-count: infinite;
-                        background-image: url("../images/arrow_down.svg?13");
+                        background-image: url("../images/arrow_down.svg");
                         background-position: 50% 50%;
                         background-repeat: no-repeat;
                         background-size: contain;
@@ -251,7 +251,17 @@ main{
   -webkit-filter: hue-rotate(160deg);
   filter: hue-rotate(160deg);
 }
-
+header #gameoflife{
+    clear: both;
+    position: absolute;
+    font-family: monospace;
+    font-size: 25px;
+    background-color: #fdfdfd;
+    color: #111;
+    z-index: 0;
+    width: 100%;
+    height:100%;
+}
 /* MAIN NAV */
 #nav {
   display: -webkit-flex;
@@ -496,7 +506,7 @@ main{
   background-image: url("../images/portfolio.svg");
 }
 .nav_icon:nth-child(4) .nav_filter:before {
-  background-image: url("../images/what.svg");
+  background-image: url("../images/projets.svg");
 }
 .nav_icon:nth-child(5) .nav_filter:before {
   background-image: url("../images/contact.svg");
@@ -607,7 +617,6 @@ main{
   width:20vmin;
   height:20vmin;
   opacity: 0;
-  border-radius: 5%;
   z-index: 0;
   transition-property: -webkit-transform, opacity, z-index, right, top;
   transition-property: transform, opacity, z-index, right, top;
@@ -625,7 +634,7 @@ main{
   bottom: 0;
   top: 0;
   z-index: -1;
-  border-radius: 5%;
+  border-radius: 100%;
   overflow: hidden;
   cursor: pointer;
   transition-property: -webkit-transform;
@@ -1644,7 +1653,7 @@ swiper-container-v {
   #main_logo_svg {
     bottom: 1.5vh;
     height: 26vh;
-    width: 26vh;
+    width: 30vh;
     -webkit-transform: scale(.39, .4);
     -ms-transform: scale(.39, .4);
     transform: scale(0.39, 0.4);
