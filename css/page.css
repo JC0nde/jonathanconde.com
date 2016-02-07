@@ -796,7 +796,7 @@ main{
   transform: translateX(-40%);
   right: 59.5%
 }
-.vue_3.fixed .gauche .pg3_article_left, .vue_3.fixed .droite .pg3_article_right{
+.vue_3.fixed .swiper-slide-active .pg3_article_left, .vue_3.fixed .swiper-slide-active .pg3_article_right{
   opacity: 1;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -855,7 +855,7 @@ main{
   -ms-transform: translateX(-27%);
   transform: translateX(-27%);
 }
-.vue_3.fixed .gauche .pg3_article_left, .vue_3.fixed .droite .pg3_article_right {
+.vue_3.fixed .swiper-slide-active .pg3_article_left, .vue_3.fixed .swiper-slide-active .pg3_article_right {
   opacity: 1;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -863,7 +863,7 @@ main{
   transition: -webkit-transform 1s ease 1s, opacity 1.2s ease 1s;
   transition: transform 1s ease 1s, opacity 1.2s ease 1s;
 }
-.vue_3.fixed .gauche .pg3_article_left p, .vue_3.fixed .droite .pg3_article_right p {
+.vue_3.fixed .swiper-slide-active .pg3_article_left p, .vue_3.fixed .swiper-slide-active .pg3_article_right p {
   opacity: 1;
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -1236,6 +1236,7 @@ swiper-container-v {
 }
 .backward {
   left: 0;
+  top:0;
   -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
 }
@@ -1245,6 +1246,7 @@ swiper-container-v {
 }
 .forward {
   right: 0;
+  top:0;
   -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
 }
@@ -1779,7 +1781,7 @@ swiper-container-v {
   .backward, .forward {
     width: 8vw;
     height: 11vh;
-    bottom: 43.3%;
+    top:56%;
     margin-bottom: -16.5vw;
   }
   .backward .ink, .backward:before, .forward .ink, .forward:before {

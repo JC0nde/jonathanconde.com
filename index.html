@@ -122,7 +122,7 @@
         </header>
         <!-- MAIN -->
         <main>
-            <div class="swiper-container-h">
+            <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
                     <!-- Page(1) -->
                     <div class="swiper-slide">
@@ -175,30 +175,31 @@
                     </div>
                     <!-- Page(3) -->
                     <div class="swiper-slide">
-                        <section class="pages page_3 gauche">
-                            <div id="pg3_content">
-                                <article class="pg3_articles pg3_article_left">
-                                    <h2>DEV</h2>
-                                    <p>JavaScript, PHP, CSS3 et autres acronymes me donnent des super pouvoirs me permettant de développer n'importe quelle front-end, chaque fois plus avancé.</p>
-                                </article>
-                                <article class="pg3_articles pg3_article_right">
-                                    <h2>UI</h2>
-                                    <p>Je suis fan de flat design. J'utilise les couleurs, la typographie et les icones pour fabriquer de belles interfaces, simples d'utilisation et adaptées à toutes les tailles d'écrans</p>
-                                </article>
+                        <div class="swiper-container swiper-container-s">
+                            <div class="swiper-wrapper" id="pg3_content">
+                                <div class="swiper-slide pages page_3 gauche">
+                                    <article class="pg3_articles pg3_article_left">
+                                        <h2>DEV</h2>
+                                        <p>JavaScript, PHP, CSS3 et autres acronymes me donnent des super pouvoirs me permettant de développer n'importe quelle front-end, chaque fois plus avancé.</p>
+                                    </article>
+                                </div>
+                                <div class="swiper-slide pages page_3 droite">
+                                    <article class="pg3_articles pg3_article_right">
+                                        <h2>UI</h2>
+                                        <p>Je suis fan de flat design. J'utilise les couleurs, la typographie et les icones pour fabriquer de belles interfaces, simples d'utilisation et adaptées à toutes les tailles d'écrans</p>
+                                    </article>
+                                </div>
+                                <div class="swiper-button-prev-s swiper-button-white flgauche"></div>
+                                <div class="swiper-button-next-s swiper-button-white fldroite"></div>
                             </div>
-                            <nav class="fldroite">
-                                <i class="icon"></i>
-                            </nav>
-                            <nav class="flgauche">
-                                <i class="icon"></i>
-                            </nav>
-                        </section>
+
+                        </div>
                     </div>
                     <!-- Page(4) -->
                     <div class="swiper-slide">
                         <section class="pages page_4">
                             <!-- Slider -->
-                            <div class="swiper-container-v ">
+                            <div class="swiper-container swiper-container-v">
                                 <div class="swiper-wrapper johnnysSlider">
                                     <div class="swiper-slide">
                                         <figure class="slides">

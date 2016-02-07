@@ -69,6 +69,15 @@ $(document).ready(function(){
         }
     });
 
+    var swiperS = new Swiper('.swiper-container-s', {
+        paginationClickable: true,
+        nextButton: '.swiper-button-next-s',
+        prevButton: '.swiper-button-prev-s',
+        parallax: true,
+        speed: 1100,
+        keyboardControl:true,
+    });
+
     $("#header").find("a[data-slide]").on('click',function(){
         $("#header").find("a.active").removeClass('active');
         $(this).addClass('active');
@@ -87,8 +96,4 @@ $(document).ready(function(){
     $("#social_list").on("mouseenter mouseleave",function(){
         $(".social_list").toggleClass('socialed');
     });
-
-    sisi='jonathanconde.com';
-    sisi=('mail' + '@' + sisi);
-    $("#nono").append('<a href="mailto:' + sisi + '">' + sisi + '</a>');
 });
