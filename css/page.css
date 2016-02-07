@@ -32,10 +32,16 @@ svg:not(:root) {
 figure {
   margin: 1em 40px;
 }
+canvas {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
 body {
   margin: 0;
   font-family: 'Lato',sans-serif;
   font-size: 3vh;
+  background:#073642;
 }
 body, html {
   height: 100%;
@@ -250,17 +256,6 @@ main{
 .vue_2 #arrow_down i {
   -webkit-filter: hue-rotate(160deg);
   filter: hue-rotate(160deg);
-}
-header #gameoflife{
-    clear: both;
-    position: absolute;
-    font-family: monospace;
-    font-size: 25px;
-    background-color: #fdfdfd;
-    color: #111;
-    z-index: 0;
-    width: 100%;
-    height:100%;
 }
 /* MAIN NAV */
 #nav {

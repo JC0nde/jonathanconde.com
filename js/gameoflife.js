@@ -1,117 +1,116 @@
-var gameoflife = function () {
+/**
+ * Conway's Game of Life.
+ *
+ * A simple Javascript implementation by ankr.
+ *
+ * @author http://ankr.dk
+ */
+var canvas = document.getElementById('c').getContext('2d'),
+    cells = [];
+canvas.strokeStyle = 'transparent';
+canvas.fillStyle = 'cadetblue';
 
-    // Constant and global variables
-    var POPULATION;
-    var GRID_HEIGHT;
-    var GRID_WIDTH;
-    var GRID_SIZE;
 
-    var current = new Array();
-    var next = new Array();
-    var colors = new Array("#e3e3e3", "#bdbdbd");
+init();
 
-    // Set up the board with random items
-    var _initialize = function(num) {
-        POPULATION = $('#gameoflife').attr('data-population');
-        GRID_HEIGHT = $('#gameoflife').attr('data-height');
-        GRID_WIDTH = $('#gameoflife').attr('data-width');
-        GRID_SIZE = GRID_HEIGHT*GRID_WIDTH;
+/**
+ * Initialize game.
+ *
+ * Will place a Gosper glider gun in the world and start simulation.
+ */
+function init() {
+    for (var i=0; i<64; i++) {
+        cells[i] = [];
+        for (var j=0; j<64; j++) {
+            cells[i][j] = 0;
+        }
+    }
 
-        _populate();
-        setInterval(_run, 150);
+    // Prefilled cells
+    [
+        // Gosper glider gun
+        [1, 5],[1, 6],[2, 5],[2, 6],[11, 5],[11, 6],[11, 7],[12, 4],[12, 8],[13, 3],[13, 9],[14, 3],[14, 9],[15, 6],[16, 4],[16, 8],[17, 5],[17, 6],[17, 7],[18, 6],[21, 3],[21, 4],[21, 5],[22, 3],[22, 4],[22, 5],[23, 2],[23, 6],[25, 1],[25, 2],[25, 6],[25, 7],[35, 3],[35, 4],[36, 3],[36, 4],
 
-        $(document).on('click', '#gameoflife', function () {
-            _initialize();
+        // Random cells
+        // If you wait enough time these will eventually take part
+        // in destroying the glider gun, and the simulation will be in a "static" state.
+        [60, 47],[61,47],[62,47],
+        [60, 48],[61,48],[62,48],
+        [60, 49],[61,49],[62,49],
+        [60, 51],[61,51],[62,51],
+    ]
+    .forEach(function(point) {
+        cells[point[0]][point[1]] = 1;
+    });
+
+    update();
+}
+
+/**
+ * Check which cells are still alive.
+ */
+function update() {
+
+    var result = [];
+
+    /**
+     * Return amount of alive neighbours for a cell
+     */
+    function _countNeighbours(x, y) {
+        var amount = 0;
+
+        function _isFilled(x, y) {
+            return cells[x] && cells[x][y];
+        }
+
+        if (_isFilled(x-1, y-1)) amount++;
+        if (_isFilled(x,   y-1)) amount++;
+        if (_isFilled(x+1, y-1)) amount++;
+        if (_isFilled(x-1, y  )) amount++;
+        if (_isFilled(x+1, y  )) amount++;
+        if (_isFilled(x-1, y+1)) amount++;
+        if (_isFilled(x,   y+1)) amount++;
+        if (_isFilled(x+1, y+1)) amount++;
+
+        return amount;
+    }
+
+    cells.forEach(function(row, x) {
+        result[x] = [];
+        row.forEach(function(cell, y) {
+            var alive = 0,
+                count = _countNeighbours(x, y);
+
+            if (cell > 0) {
+                alive = count === 2 || count === 3 ? 1 : 0;
+            } else {
+                alive = count === 3 ? 1 : 0;
+            }
+            result[x][y] = alive;
         });
+    });
 
-    };
+    cells = result;
 
-    var _populate = function() {
-        // Set up 3d array of items
-        current = new Array(GRID_WIDTH);
-        next    = new Array(GRID_WIDTH);
-        for(i=0; i<GRID_WIDTH; i++) {
-            current[i] = new Array(GRID_HEIGHT);
-            next[i] = new Array(GRID_HEIGHT);
-        }
+    draw();
+}
 
-        // Populate grid
-        for(i=0; i<POPULATION; i++) {
-            var x = Math.floor(Math.random()*GRID_WIDTH);
-            var y = Math.floor(Math.random()*GRID_HEIGHT);
-            current[x][y] = 1;
-        }
-    };
-
-    var _check_adjacent = function(x, y) {
-        count = 0;
-        var xmin, xmax, ymin, ymax;
-        xmin = x-1;
-        xmax = x+1;
-        ymin = y-1;
-        ymax = y+1;
-
-        // Check edges
-        if (x == 0) xmin = GRID_WIDTH-1;
-        if (y == 0) ymin = GRID_HEIGHT-1;
-        if (x == GRID_WIDTH-1) xmax = 0;
-        if (y == GRID_HEIGHT-1) ymax = 0;
-
-        // Check each surrounding edge
-        if(current[xmin][ymin]) count++;
-        if(current[xmin][y]) count++;
-        if(current[xmin][ymax]) count++;
-        if(current[x][ymin]) count++;
-        if(current[x][ymax]) count++;
-        if(current[xmax][ymin]) count++;
-        if(current[xmax][y]) count++;
-        if(current[xmax][ymax]) count++;
-
-        // Kill if less then 2 adjacent
-        if(count < 2) {
-            return 0;
-        } else if(count < 4) {
-            // Revive if 3 adjacent
-            if(!current[x][y]  && count ==3 ) {
-                return 1;
-                // Stay alive if 3 or 4 adjacent
-            } else if (current[x][y]) {
-                return 1;
+/**
+ * Draw cells on canvas
+ */
+function draw() {
+    canvas.clearRect(0, 0, 1512, 512);
+    cells.forEach(function(row, x) {
+        row.forEach(function(cell, y) {
+            canvas.beginPath();
+            canvas.rect(x*1, y*1, 1, 1);
+            if (cell) {
+                canvas.fill();
+            } else {
+                canvas.stroke();
             }
-        }
-        // Kill otherwise
-        return 0;
-    };
-
-    var _run = function () {
-        var string = "";
-        if (!current.length) {
-            return false;
-        }
-        for(var j=0; j < GRID_HEIGHT; j++) {
-            for(var i = 0; i < GRID_WIDTH; i++) {
-                next[i][j] = _check_adjacent(i,j);
-                if ( current[i][j] ) {
-                    var ncolor = Math.floor(Math.random()*colors.length);
-                    string+="<span style='color: " + colors[ncolor] + "'>.<span>&#160";
-                } else {
-                    string+="&#160&#160";
-                }
-            }
-            string+="<br\>";
-        }
-
-        $('#gameoflife').html(string);
-        for(var i = 0; i < GRID_WIDTH; i++) {
-            for(var j=0; j < GRID_HEIGHT; j++) {
-                current[i][j]= next[i][j];
-            }
-        }
-
-        // Display nicely
-    };
-
-    return {
-        initialize: _initialize
-    };
-}();
+        });
+    });
+    setTimeout(function() {update();}, 70);
+    //window.requestAnimationFrame(update); // Too fast!
+}
