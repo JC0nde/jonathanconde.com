@@ -899,7 +899,7 @@ main{
                     right: 0;
                     margin: 0;
                     opacity: 0;
-                    background-color: #073642;
+                    background-color: #002B36;
                     transition: -webkit-transform .5s, opacity .3s;
                     transition: transform .5s, opacity 2s;
                   }

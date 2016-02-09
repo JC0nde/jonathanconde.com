@@ -74,7 +74,8 @@ $(document).ready(function(){
         nextButton: '.swiper-button-next-s',
         prevButton: '.swiper-button-prev-s',
         parallax: true,
-        speed: 1100,
+        grabCursor: true,
+        speed: 1200,
         keyboardControl:true,
     });
 
