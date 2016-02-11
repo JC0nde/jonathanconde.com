@@ -1731,7 +1731,7 @@ swiper-container-v {
   .pg3_article_right p {
     right: 6%
   }
-  .pg3_bg_bottom {
+  .parallax-bg {
     height: 60%
   }
   .flgauche, .fldroite {
@@ -1742,7 +1742,8 @@ swiper-container-v {
                     }
   .flgauche i.icon, .fldroite i.icon {
     width: 38%;
-    bottom: 1%}
+    bottom: 1%
+  }
   .flgauche:hover i.icon, .fldroite:hover i.icon {
                             -webkit-transform: none;
                             -ms-transform: none;
