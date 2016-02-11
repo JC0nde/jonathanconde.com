@@ -75,23 +75,27 @@ $(document).ready(function(){
         prevButton: '.swiper-button-prev-s',
         parallax: true,
         grabCursor: true,
-        speed: 1200,
+        speed: 1155,
         keyboardControl:true,
+        onSlideChangeStart:function (e){
+            switch (swiperS.activeIndex){
+            case 0:
+                $(".swiper-container-s").removeClass('droite');
+                $(".swiper-container-s").addClass('gauche');
+                break;
+
+            case 1:
+                $(".swiper-container-s").removeClass('gauche');
+                $(".swiper-container-s").addClass('droite');
+                break;
+            }
+        }
     });
 
     $("#header").find("a[data-slide]").on('click',function(){
         $("#header").find("a.active").removeClass('active');
         $(this).addClass('active');
         mySwiper.slideTo( $(this).data("slide") );
-    });
-
-    $(".flgauche").on('click',function(){
-        $(".page_3").removeClass('gauche');
-        $(".page_3").addClass('droite');
-    });
-    $(".fldroite").on('click',function(){
-        $(".page_3").removeClass('droite');
-        $(".page_3").addClass('gauche');
     });
 
     $("#social_list").on("mouseenter mouseleave",function(){
