@@ -125,12 +125,12 @@
             <div class="swiper-container swiper-container-h">
                 <div class="swiper-wrapper">
                     <!-- Page(1) -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-hash="accueil">
                         <section class="pages page_1">
                         </section>
                     </div>
                     <!-- Page(2) -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-hash='apropos'>
                         <section class="pages page_2">
                             <article class="pg2_article">
                                 <h1>Jonathan Conde</h1>
@@ -174,7 +174,7 @@
                         </section>
                     </div>
                     <!-- Page(3) -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-hash='what-i-do'>
                         <div class="swiper-container swiper-container-s gauche">
                             <div class="parallax-bg" data-swiper-parallax="-50%"></div>
                             <div class="swiper-wrapper" id="pg3_content">
@@ -183,21 +183,42 @@
                                         <h2>DEV</h2>
                                         <p>JavaScript, PHP, CSS3 et autres acronymes me donnent des super pouvoirs me permettant de développer n'importe quelle front-end, chaque fois plus avancé.</p>
                                     </article>
+                                    <section class="monsters_wrapper monster_wrapper_left">
+                                        <img class="shade" src="images/monster_shade.png" alt="Monster">
+                                        <figure class="monsters monster_purple">
+                                            <img src="images/purple_left_foot.svg" id="pg3_purple_leftfoot" alt="Monster">
+                                            <img src="images/purple_right_foot.svg" id="pg3_purple_rightfoot" alt="Monster">
+                                            <img src="images/purple_body.svg" id="pg3_purple_body" alt="Monster">
+                                            <img src="images/purple_left_hand.svg" id="pg3_purple_lefthand" alt="Monster">
+                                            <img src="images/purple_right_hand.svg" id="pg3_purple_righthand" alt="Monster">
+                                            <img src="images/purple_eyes.svg" id="pg3_purple_eyes" alt="Monster">
+                                        </figure>
+                                    </section>
                                 </div>
                                 <div class="swiper-slide pages page_3">
                                     <article class="pg3_articles pg3_article_right">
                                         <h2>UI</h2>
                                         <p>Je suis fan de flat design. J'utilise les couleurs, la typographie et les icones pour fabriquer de belles interfaces, simples d'utilisation et adaptées à toutes les tailles d'écrans</p>
                                     </article>
+                                    <section class="monsters_wrapper monster_wrapper_right">
+                                        <img class="shade" src="images/monster_shade.png" alt="Monster">
+                                        <img src="images/teal_left_foot.svg" id="pg3_teal_leftfoot" alt="Monster">
+                                        <img src="images/teal_right_foot.svg" id="pg3_teal_rightfoot" alt="Monster">
+                                        <figure class="monsters monster_teal">
+                                            <img src="images/teal_body.svg" id="pg3_teal_body" alt="Monster">
+                                            <img src="images/teal_eyes.svg" id="pg3_teal_eyes" alt="Monster">
+                                            <img src="images/teal_left_hand.svg" id="pg3_teal_lefthand" alt="Monster">
+                                            <img src="images/teal_right_hand.svg" id="pg3_teal_righthand" alt="Monster">
+                                        </figure>
+                                    </section>
                                 </div>
                                 <span class="swiper-button-prev-s fldroite"><i class="icon"></i></span>
                                 <span class="swiper-button-next-s flgauche"><i class="icon"></i></span>
                             </div>
-
                         </div>
                     </div>
                     <!-- Page(4) -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-hash='portfolio'>
                         <section class="pages page_4">
                             <!-- Slider -->
                             <div class="swiper-container swiper-container-v">
@@ -260,7 +281,7 @@
                         </section>
                     </div>
                     <!-- Page(5) -->
-                    <div class="swiper-slide">
+                    <div class="swiper-slide" data-hash='contact'>
                         <section class="pages page_5">
                             <article id="pg5_contact">
                                 <div class="txt-contact">

@@ -939,8 +939,8 @@ main{
   transform: translateX(100%);
 }
 .flgauche:before {
-  -webkit-transform: translate3d(100%, 0, 0);
-  transform: translate3d(100%, 0, 0);
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
 }
 .flgauche i.icon {
   left: 0;
@@ -996,6 +996,62 @@ main{
   background-size: 100% 100%,100% 100%;
   background-position: center;
   background-image: url("../images/pg3_bas.svg"),url("../images/pg3_bas.jpg");
+}
+.monsters_wrapper {
+  position: absolute;
+  left: 0;
+  right: 1%;
+  margin: 0 auto;
+  bottom: 45.5%;
+  transition: -webkit-transform 0s ease 1.1s;
+  transition: transform 0s ease 1.1s;
+}
+.vue_3 .monsters_wrapper {
+  transition: -webkit-transform 1.2s ease 0s;
+  transition: transform 1.2s ease 0s;
+}
+.monster_wrapper_left {
+  width: 22.452vw !important;
+  height: 20.376vw !important;
+  margin-bottom: -7.5vw;
+  -webkit-transform: translate3d(130%, 0, 0);
+  transform: translate3d(130%, 0, 0);
+}
+.monster_wrapper_right {
+  width: 15.9736vw !important;
+  height: 21.02233vw !important;
+  margin-bottom: -7.92vw;
+  -webkit-transform: translate3d(-180%, 0, 0);
+  transform: translate3d(-180%, 0, 0);
+}
+.gauche .monster_wrapper_left, .droite .monster_wrapper_right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.vue_3.fixed .gauche .monster_wrapper_left {
+  -webkit-transform: translate3d(-55%, 0, 0);
+  transform: translate3d(-55%, 0, 0);
+}
+.vue_3.fixed .droite .monster_wrapper_right {
+  -webkit-transform: translate3d(79%, 0, 0);
+  transform: translate3d(79%, 0, 0);
+}
+.monsters {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.monster_wrapper_left .shade {
+  bottom: -11%
+}
+.monster_wrapper_right .shade {
+  bottom: -7%
+}
+.monsters img, .monsters_wrapper img {
+  position: absolute;
+  width: 100%
 }
 
 /* PAGE 4 */
@@ -1749,6 +1805,24 @@ swiper-container-v {
                             -ms-transform: none;
                             transform: none;
                           }
+  .monster_wrapper_left {
+    width: 52.388vw !important;
+    height: 47.544vw !important;
+    margin-bottom: 10vh;
+    -webkit-transform: translate3d(-280%, 0, 0);
+    transform: translate3d(-280%, 0, 0);
+  }
+  .monster_wrapper_right {
+    width: 37.1296vw !important;
+    height: 48.86504vw !important;
+    margin-bottom: 10.5vw;
+    -webkit-transform: translate3d(380%, 0, 0);
+    transform: translate3d(380%, 0, 0);
+  }
+  .vue_3.fixed .gauche .monster_wrapper_left, .vue_3.fixed .droite .monster_wrapper_right {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
   .slides {
     margin: auto;
     height: 61vw;

@@ -75,9 +75,9 @@ $(document).ready(function(){
         prevButton: '.swiper-button-prev-s',
         parallax: true,
         grabCursor: true,
-        speed: 1155,
+        speed: 1200,
         keyboardControl:true,
-        onSlideChangeStart:function (e){
+        onSlideChangeStart:function (){
             switch (swiperS.activeIndex){
             case 0:
                 $(".swiper-container-s").removeClass('droite');
