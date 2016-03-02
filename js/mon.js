@@ -69,29 +69,6 @@ $(document).ready(function(){
         }
     });
 
-    var swiperS = new Swiper('.swiper-container-s', {
-        paginationClickable: true,
-        nextButton: '.swiper-button-next-s',
-        prevButton: '.swiper-button-prev-s',
-        parallax: true,
-        grabCursor: true,
-        speed: 1200,
-        keyboardControl:true,
-        onSlideChangeStart:function (){
-            switch (swiperS.activeIndex){
-            case 0:
-                $(".swiper-container-s").removeClass('droite');
-                $(".swiper-container-s").addClass('gauche');
-                break;
-
-            case 1:
-                $(".swiper-container-s").removeClass('gauche');
-                $(".swiper-container-s").addClass('droite');
-                break;
-            }
-        }
-    });
-
     $("#header").find("a[data-slide]").on('click',function(){
         $("#header").find("a.active").removeClass('active');
         $(this).addClass('active');
@@ -101,4 +78,8 @@ $(document).ready(function(){
     $("#social_list").on("mouseenter mouseleave",function(){
         $(".social_list").toggleClass('socialed');
     });
+
+    emailE='jonathanconde.com';
+    emailE=('mail' + '@' + emailE);
+    $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
 });

@@ -7,16 +7,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   preserveAspectRatio="none"
-   width="8"
-   height="4"
-   viewBox="0 0 8 4"
+   width="374.2"
+   height="339.6"
+   viewBox="0 0 374.2 339.6"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pg3_bas.svg">
+   sodipodi:docname="purple_eyes.svg">
   <metadata
-     id="metadata12">
+     id="metadata18">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -27,7 +26,7 @@
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs10" />
+     id="defs16" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -39,23 +38,43 @@
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
      inkscape:window-height="1080"
-     id="namedview8"
+     id="namedview14"
      showgrid="false"
-     inkscape:zoom="90.509668"
-     inkscape:cx="5.4018717"
-     inkscape:cy="2.0563366"
+     inkscape:zoom="0.95641121"
+     inkscape:cx="-274.26965"
+     inkscape:cy="17.811725"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
-  <path
-     d="M0 0l2 4H0M8 0L6 4h2"
-     id="path4"
-     fill="#c8c8c8"
-     opacity=".35" />
-  <path
-     d="M0 4V0l4 3.6L8 0v4"
-     id="path6"
-     fill="#d2d2d2"
-     opacity=".23" />
+  <ellipse
+     cx="184.3"
+     cy="85.300003"
+     rx="7.6999998"
+     ry="7.8000002"
+     id="ellipse4"
+     style="fill:#ffffff" />
+  <ellipse
+     cx="184.5"
+     cy="85.400002"
+     rx="4.9000001"
+     ry="4.3000002"
+     id="ellipse6" />
+  <g
+     id="g8"
+     transform="translate(-74,-20)">
+    <ellipse
+       cx="308.5"
+       cy="103.3"
+       rx="7.6999998"
+       ry="7.8000002"
+       id="ellipse10"
+       style="fill:#ffffff" />
+    <ellipse
+       cx="308.60001"
+       cy="103.4"
+       rx="4.9000001"
+       ry="4.3000002"
+       id="ellipse12" />
+  </g>
 </svg>
