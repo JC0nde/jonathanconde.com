@@ -7,11 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 80 25"
+   preserveAspectRatio="none"
+   width="4"
+   height="4"
+   viewBox="0 0 4 4"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="arrow_down.svg">
+   sodipodi:docname="pg1_left_dark.svg">
   <metadata
      id="metadata10">
     <rdf:RDF>
@@ -38,19 +41,16 @@
      inkscape:window-height="1080"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="67.093969"
-     inkscape:cx="38.631628"
-     inkscape:cy="8.2085972"
+     inkscape:zoom="256"
+     inkscape:cx="0.480051"
+     inkscape:cy="2"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     fill="none"
-     stroke="#00b9be"
-     stroke-width="2.5"
-     stroke-miterlimit="10"
-     d="M79 1L40 22 1 1"
+     fill="#00b9be"
+     d="M0 4l4-4H0"
      id="path4"
-     style="stroke:#00b9be;stroke-opacity:1" />
+     style="fill:#00b9be;fill-opacity:1" />
 </svg>
