@@ -41,16 +41,16 @@
      inkscape:window-height="1080"
      id="namedview6"
      showgrid="false"
-     inkscape:zoom="256"
-     inkscape:cx="0.480051"
-     inkscape:cy="2"
+     inkscape:zoom="128"
+     inkscape:cx="3.614221"
+     inkscape:cy="1.1378123"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     fill="#00b9be"
      d="M0 4l4-4H0"
      id="path4"
-     style="fill:#00b9be;fill-opacity:1" />
+     style="fill:#00b9be;fill-opacity:1"
+     fill="#00b9be" />
 </svg>

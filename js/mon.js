@@ -82,4 +82,17 @@ $(document).ready(function(){
     emailE='jonathanconde.com';
     emailE=('mail' + '@' + emailE);
     $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
+
+    $(".balls").on("click", function(){
+        $(".balls").removeClass('selected');
+        $(this).addClass('selected');
+        $(".balls_article").removeClass('active');
+        $(".balls_article").addClass("active");
+        //console.log($(this).data("index"));
+    });
+
+    $('.balls_close_icon').on('click',function(){
+        $('.balls').removeClass('selected');
+        $('.balls_article').removeClass('active');
+    });
 });

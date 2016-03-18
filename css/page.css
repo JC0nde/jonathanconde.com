@@ -854,6 +854,170 @@ main{
   transform: translate(115%, -23%) scale(.93);
   transition-delay: 2.38s, 1.34s, .15s, 0s, 0s;
 }
+/* POP UP PAGE 2 */
+.vue_2 .ball_wrapper .balls_article {
+  position: absolute;
+  visibility: hidden;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  left: 22%;
+  right: 20%;
+  bottom: 0;
+  top: 4%;
+  height: 60%;
+  margin: auto 0;
+  color: #ddd;
+  opacity: 0;
+  z-index: 6;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transform: scale(.7);
+  -ms-transform: scale(.7);
+  transform: scale(.7);
+  -webkit-transform-origin: 5% 75%;
+  -ms-transform-origin: 5% 75%;
+  transform-origin: 5% 75%;
+  transition-property: -webkit-transform, opacity, visibility;
+  transition-property: transform, opacity, visibility;
+  transition-duration: .2s, .16s, 0s;
+  transition-delay: 0s, 0s, .2s;
+}
+.vue_2 .ball_wrapper .balls_article.active {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  transition-duration: .8s, 1s, 0s;
+  transition-delay: .1s, .2s, 0s;
+}
+.vue_2 .ball_wrapper .balls_article h3, .vue_2 .ball_wrapper .balls_article h5, .vue_2 .ball_wrapper .balls_article p {
+  box-sizing: border-box;
+}
+.vue_2 .ball_wrapper .balls_article h3 {
+  margin: 3.5vh 0;
+  font-size: 6.8rem;
+  opacity: 1;
+  letter-spacing: .3rem;
+  font-weight: 100;
+}
+.vue_2 .ball_wrapper .balls_article h5 {
+  margin: 6.5vh 0;
+  padding: 0 1rem;
+  font-size: 2.1rem;
+  font-weight: 500;
+  opacity: .9;
+  text-align: right;
+}
+.vue_2 .ball_wrapper .balls_article p {
+  opacity: .8;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 155%
+}
+.vue_2 .ball_wrapper .balls_article .balls_close_icon {
+  position: absolute;
+  top: -4vh;
+  right: 0;
+  margin: 0;
+  width: 7vh;
+  height: 7vh;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 9;
+  background-color: rgba(255, 255, 255, .06);
+  transition: opacity .3s ease;
+}
+.vue_2 .ball_wrapper .balls_article .balls_close_icon::after, .vue_2 .ball_wrapper .balls_article .balls_close_icon::before {
+								 content: "";
+								 position: absolute;
+								 width: 100%;
+								 height: 1px;
+								 background-color: #fff;
+								 top: 50%;
+								 -webkit-transform-origin: center center;
+								 -ms-transform-origin: center center;
+								 transform-origin: center center;
+								 right: 0;
+								 margin-left: -6.5vh;
+								 transition: -webkit-transform .35s;
+								 transition: transform .35s;
+							       }
+.vue_2 .ball_wrapper .balls_article .balls_close_icon::before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.vue_2 .ball_wrapper .balls_article .balls_close_icon::after, .vue_2 .ball_wrapper .balls_article .balls_close_icon:hover::before {
+								 -webkit-transform: rotate(-45deg);
+								 -ms-transform: rotate(-45deg);
+								 transform: rotate(-45deg);
+							       }
+.vue_2 .ball_wrapper .balls_article .balls_close_icon:hover::after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.vue_2 .ball_wrapper .balls_article.b3_article, .vue_2 .ball_wrapper .balls_article.b4_article {
+  color: #000;
+}
+.vue_2 .ball_wrapper .balls_article.b3_article .balls_close_icon, .vue_2 .ball_wrapper .balls_article.b4_article .balls_close_icon {
+  background-color: rgba(0, 0, 0, .06);
+}
+.vue_2 .ball_wrapper .balls_article.b3_article .balls_close_icon::after, .vue_2 .ball_wrapper .balls_article.b3_article .balls_close_icon::before, .vue_2 .ball_wrapper .balls_article.b4_article .balls_close_icon::after, .vue_2 .ball_wrapper .balls_article.b4_article .balls_close_icon::before {
+																												 background-color: #000;
+																											       }
+.vue_2.fixed .ball_wrapper .balls.selected {
+  z-index: 5;
+}
+.vue_2.fixed .ball_wrapper .balls.selected .ball_cover {
+  transition-duration: .8s;
+  cursor: default;
+}
+.vue_2.fixed .ball_wrapper .balls.selected .ball_cover>h4 {
+  opacity: 0;
+  -webkit-transform: translateY -200% scale(.8);
+  -ms-transform: translateY -200% scale(.8);
+  transform: translateY -200% scale(.8);
+  transition-duration: .25s, .15s;
+  transition-delay: 0s;
+}
+.vue_2.fixed .ball_wrapper .balls.selected .ball_cover>i {
+  -webkit-transform: translate(-13%, -13%) scale(.45);
+  -ms-transform: translate(-13%, -13%) scale(.45);
+  transform: translate(-13%, -13%) scale(.45);
+  opacity: .2;
+  transition-duration: .4s;
+}
+.vue_2.fixed .ball_wrapper .balls.selected.ball_1 .ball_cover {
+  -webkit-transform: translate(112%, -40%) scale(9);
+  -ms-transform: translate(112%, -40%) scale(9);
+  transform: translate(112%, -40%) scale(9);
+}
+.vue_2.fixed .ball_wrapper .balls.selected.ball_2 .ball_cover {
+  -webkit-transform: translate(215%, -94%) scale(10.8);
+  -ms-transform: translate(215%, -94%) scale(10.8);
+  transform: translate(215%, -94%) scale(10.8);
+}
+.vue_2.fixed .ball_wrapper .balls.selected.ball_3 .ball_cover {
+  -webkit-transform: translate(50%, -140%) scale(16);
+  -ms-transform: translate(50%, -140%) scale(16);
+  transform: translate(50%, -140%) scale(16);
+}
+.vue_2.fixed .ball_wrapper .balls.selected.ball_4 .ball_cover {
+  -webkit-transform: translate(370%, -40%) scale(13);
+  -ms-transform: translate(370%, -40%) scale(13);
+  transform: translate(370%, -40%) scale(13);
+}
+/* BG BAS PAGE 2 */
 .pg2_bg_bas {
   position: absolute;
   background-size: 100% 100%;
@@ -1095,7 +1259,7 @@ main{
   width: 300px;
   height: 300px;
   display: inline-block;
-  margin: 20px;
+  margin: 1vw;
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
   -ms-perspective: 1200px;
@@ -2067,7 +2231,7 @@ swiper-container-v {
     margin-left: -50vmin;
   }
   100% {
-    left: 10%;
+    left: 30%;
     margin-left: -8vmin;
   }
 }
@@ -2077,7 +2241,7 @@ swiper-container-v {
     margin-left: -50vmin;
   }
   100% {
-    left: 10%;
+    left: 30%;
     margin-gauche: -8vmin;
   }
 }
