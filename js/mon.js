@@ -27,6 +27,8 @@ $(document).ready(function(){
         onSlideChangeStart: function(){
             $("#header").find("a.active").removeClass('active');
             $("#header").find("a").eq(mySwiper.activeIndex).addClass('active');
+            $('.balls').removeClass('selected');
+            $('.balls_article').removeClass('active');
             // history.pushState(null, null, $("#header").find("a.active").attr("href"));
             switch(mySwiper.activeIndex){
             case 0:
@@ -87,8 +89,9 @@ $(document).ready(function(){
         $(".balls").removeClass('selected');
         $(this).addClass('selected');
         $(".balls_article").removeClass('active');
-        $(".balls_article").addClass("active");
-        //console.log($(this).data("index"));
+        var myBallsIndex = $(this).data("index");
+        $(".balls_article").slice(myBallsIndex, myBallsIndex+1).addClass("active");
+        console.log($(this).data("index"));
     });
 
     $('.balls_close_icon').on('click',function(){
