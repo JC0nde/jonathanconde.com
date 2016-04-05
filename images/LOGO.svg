@@ -15,7 +15,7 @@
    id="main_logo_svg"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="LOGO2.svg"
+   sodipodi:docname="LOGO.svg"
    inkscape:export-filename="/home/jonathan/Local/test/images/dessin_LOGO.PNG"
    inkscape:export-xdpi="9.3682079"
    inkscape:export-ydpi="9.3682079">
@@ -28,16 +28,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.325482"
-     inkscape:cx="63.822198"
-     inkscape:cy="315.66079"
+     inkscape:zoom="0.43492378"
+     inkscape:cx="142.85378"
+     inkscape:cy="233.94903"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="898"
+     inkscape:window-height="1050"
+     inkscape:window-x="1004"
+     inkscape:window-y="12"
      inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -73,7 +73,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -104,15 +104,21 @@
        sodipodi:end="4.4842677"
        d="M 580.64658,313.63921 A 205.7471,205.31613 0 0 1 408.71135,541.44648 205.7471,205.31613 0 0 1 174.50053,378.01754 205.7471,205.31613 0 0 1 329.90524,138.67551"
        transform="matrix(0.99409894,0.10847721,-0.10893863,0.99404848,0,0)"
-       sodipodi:open="true" />
+       sodipodi:open="true"
+       inkscape:export-filename="/home/jonathan/Local/email/logo.png"
+       inkscape:export-xdpi="15.088843"
+       inkscape:export-ydpi="15.088843" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.07203674;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00b9be;stroke-width:47.07203674;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 427.03324,383.62351 425.89665,162.93528"
        id="change1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="/home/jonathan/Local/email/logo.png"
+       inkscape:export-xdpi="15.088843"
+       inkscape:export-ydpi="15.088843" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#9eadad;stroke-width:47.05011368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00b9be;stroke-width:47.05011368;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="change2"
        sodipodi:type="arc"
        sodipodi:cx="377.71808"
@@ -123,18 +129,27 @@
        sodipodi:end="3.9220593"
        d="m 467.28946,336.38996 a 89.756065,86.736801 0 0 1 -62.51407,88.26315 89.756065,86.736801 0 0 1 -103.65745,-37.4934 89.756065,86.736801 0 0 1 12.8208,-106.23745"
        transform="matrix(0.9944716,0.10500589,-0.11253675,0.99364756,0,0)"
-       sodipodi:open="true" />
+       sodipodi:open="true"
+       inkscape:export-filename="/home/jonathan/Local/email/logo.png"
+       inkscape:export-xdpi="15.088843"
+       inkscape:export-ydpi="15.088843" />
     <path
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.1711123px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 330.19286,381.66709 Z"
        id="path4434"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/jonathan/Local/email/logo.png"
+       inkscape:export-xdpi="15.088843"
+       inkscape:export-ydpi="15.088843" />
     <ellipse
        style="fill:#9eadad;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.62592328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        id="path4466"
        cx="336.34995"
        cy="378.59042"
        rx="34.261116"
-       ry="33.38953" />
+       ry="33.38953"
+       inkscape:export-filename="/home/jonathan/Local/email/logo.png"
+       inkscape:export-xdpi="15.088843"
+       inkscape:export-ydpi="15.088843" />
   </g>
 </svg>

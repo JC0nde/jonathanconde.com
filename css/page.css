@@ -30,7 +30,7 @@ img {
 }
 svg:not(:root) {
   overflow: hidden;
-}
+ }
 figure {
   margin: 1em 40px;
 }
@@ -100,7 +100,7 @@ main{
   width:100%;
   height:100%;
   left:0;
-  right:0;
+  top:0;
 }
 .boost {
   position: absolute;
@@ -1267,17 +1267,13 @@ main{
   content: "";
   position: absolute;
   width: 100%;
-  height: auto;
+  height: 100%;
   z-index: 1;
 }
 .page_4 {
   background-color: #e2e2e2;
 }
-/* Slider */
-swiper-container-v {
-  width:100%;
-  height:100%;
-}
+
 /* SLIDER */
 .johnnysSlider {
   height: 100%;
@@ -1285,6 +1281,12 @@ swiper-container-v {
   width: 100%;
   transition: -webkit-transform cubic-bezier(.5, 0, .65, 1) .8s;
   transition: transform cubic-bezier(.5, 0, .65, 1) .8s;
+  /*Hack Safari*/
+  display: -webkit-flex;
+}
+/*Hack Safari*/
+.johnnysSlider .swiper-slide{
+  -webkit-flex-shrink:0;
 }
 .slides{
   position: absolute;
