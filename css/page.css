@@ -531,7 +531,7 @@ main{
 /* PAGE 2 */
 .pg2_article {
   opacity: 0;
-  transition: transform 0.8 ease;
+  transition: opacity 0.8 ease;
 }
 .vue_1 .pg2_article {
   transition: opacity ease .5s;
@@ -567,7 +567,7 @@ main{
   font-weight: 300;
   letter-spacing: -0.1vmin;
 }
-.vue_2.fixed .pg2_article h1 {
+.stayput .pg2_article h1 {
   -webkit-transform: scale(.9) translate3d(0, -180%, 0);
   transform: scale(.9) translate3d(0, -180%, 0);
   transition: -webkit-transform ease .8s .2s;
@@ -605,16 +605,16 @@ main{
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
-  transition: opacity .4s ease, -webkit-transform 0s 1.2s;
-  transition: opacity .4s ease, transform 0s 1.2s;
+  transition: opacity .4s ease, -webkit-transform 0s 1s;
+  transition: opacity .4s ease, transform 0s 1s;
 }
-.vue_2.fixed .pg2_article p {
+.stayput .pg2_article p {
   opacity: 1;
   -webkit-transform: scale(1) translateY(-52%);
   -ms-transform: scale(1) translateY(-52%);
   transform: scale(1) translateY(-52%);
-  transition: opacity 0.9s ease 0.3s, -webkit-transform 0.8s ease .2s;
-  transition: opacity .9s ease 0.3s , transform .8s ease .2s;
+  transition: opacity ease .9s .2s, -webkit-transform ease .8s .2s;
+  transition: opacity ease .9s .2s, transform ease .8s .2s;
 }
 
 /* BALLS */
@@ -1246,6 +1246,7 @@ main{
   }
 }
 .pg3_bg_bas {
+  position: absolute;
   height: 40%;
   width: 100%;
   bottom: 0;

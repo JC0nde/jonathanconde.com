@@ -37,6 +37,7 @@ $(document).ready(function(){
 
             case 1:
                 $("body").attr("class", "vue_2");
+                // $('section.page_2').removeClass('stayput');
                 break;
             case 2:
                 $("body").attr("class", "vue_3");
@@ -54,6 +55,7 @@ $(document).ready(function(){
         },
         onSlideChangeEnd: function(){
             $("body").addClass("fixed");
+            $('section.page_2').addClass('stayput');
         }
     });
     var swiperV = new Swiper('.swiper-container-v', {
@@ -78,7 +80,7 @@ $(document).ready(function(){
     });
 
     $("#social_list").on("mouseenter mouseleave",function(){
-        $(".social_list").toggleClass('socialed');
+        $(this).toggleClass('socialed');
     });
 
     emailE='jonathanconde.com';
@@ -86,12 +88,15 @@ $(document).ready(function(){
     $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
 
     $(".balls").on("click", function(){
-        $(".balls").removeClass('selected');
         $(this).addClass('selected');
         $(".balls_article").removeClass('active');
         var myBallsIndex = $(this).data("index");
         $(".balls_article").slice(myBallsIndex, myBallsIndex+1).addClass("active");
         console.log($(this).data("index"));
+    });
+
+    $(".slides").find("a").on("click", function(){
+        $(".slides").addClass('on');
     });
 
     $('.balls_close_icon').on('click',function(){
