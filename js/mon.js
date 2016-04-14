@@ -79,14 +79,6 @@ $(document).ready(function(){
         mySwiper.slideTo( $(this).data("slide") );
     });
 
-    $("#social_list").on("mouseenter mouseleave",function(){
-        $(this).toggleClass('socialed');
-    });
-
-    emailE='jonathanconde.com';
-    emailE=('mail' + '@' + emailE);
-    $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
-
     $(".balls").on("click", function(){
         $(this).addClass('selected');
         $(".balls_article").removeClass('active');
@@ -95,12 +87,29 @@ $(document).ready(function(){
         console.log($(this).data("index"));
     });
 
-    $(".slides").find("a").on("click", function(){
-        $(".slides").addClass('on');
-    });
-
     $('.balls_close_icon').on('click',function(){
         $('.balls').removeClass('selected');
         $('.balls_article').removeClass('active');
     });
+
+    $(".slides").find("a").on("click", function(){
+        $(".page_4").addClass('on');
+        $('.slide_wrapper').css("z-index", "6");
+    });
+
+    $('.close_icon').on('click',function(){
+        $(".page_4").removeClass('on');
+        setTimeout(function(){
+            $('.slide_wrapper').css("z-index", "0");
+        }, 650);
+    });
+
+    $("#social_list").on("mouseenter mouseleave",function(){
+        $(this).toggleClass('socialed');
+    });
+
+    emailE='jonathanconde.com';
+    emailE=('mail' + '@' + emailE);
+    $("#nono").append('<a href="mailto:' + emailE + '">' + emailE + '</a>');
+
 });
