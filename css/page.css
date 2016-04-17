@@ -1945,6 +1945,7 @@ main{
   width: 100vmin;
   min-height: 57vmin;
   min-width: 100vmin;
+  z-index: 0;
 }
 .slide_wrapper {
   position: absolute;
