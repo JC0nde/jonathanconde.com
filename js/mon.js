@@ -105,7 +105,7 @@ $(document).ready(function(){
     });
 
     $("#social_list").on("mouseenter mouseleave",function(){
-        $(this).toggleClass('socialed');
+        $(this).toggleClass('social_on');
     });
 
     emailE='jonathanconde.com';
