@@ -321,7 +321,6 @@ button.swiper-pagination-bullet {
 }
 
 /* My stylesheet */
-
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -1477,53 +1476,32 @@ main{
   z-index:0;
 }
 /*Corps */
-#pg3_robotR_lefthand {
+#pg3_robotR_righthand {
   -webkit-transform-origin: 34.05% 45.54%;
   -ms-transform-origin: 34.05% 45.54%;
   transform-origin: 34.05% 45.54%;
   -webkit-transform: rotateZ(-18deg);
   transform: rotateZ(-18deg);
 }
-#pg3_robotR_righthand {
-  -webkit-transform-origin: 71.78% 41.66%;
-  -ms-transform-origin: 71.78% 41.66%;
-  transform-origin: 71.78% 41.66%;
-  -webkit-transform: rotateZ(8deg);
-  transform: rotateZ(8deg);
-}
 #pg3_robotR_eyes {
   -webkit-transform-origin: 49.87% 24%;
   -ms-transform-origin: 49.87% 24%;
   transform-origin: 49.87% 24%;
 }
-#pg3_robotR_lefthand, #pg3_robotR_righthand {
+#pg3_robotR_righthand {
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   transition: -webkit-transform .5s;
   transition: transform .5s;
 }
-.vue_3.fixed .gauche .robots_robotR {
-  -webkit-animation: robotRJump 1.7s ease 3.09s 5;
-  animation: robotRJump 1.7s ease 3.09s 5;
-  transition: none;
-}
-.vue_3.fixed .gauche #pg3_robotR_lefthand {
-  -webkit-animation: robotRLeftHand 1.7s ease 3.09s 5, waveLeftHand 1.2s ease 1s;
-  animation: robotRLeftHand 1.7s ease 3.09s 5, waveLeftHand 1.2s ease 1s;
-  transition: none;
-}
 .vue_3.fixed .gauche #pg3_robotR_righthand {
-  -webkit-animation: robotRRightHand 1.7s ease 3.09s 5;
-  animation: robotRRightHand 1.7s ease 3.09s 5;
+  -webkit-animation:waveRightHand 1.2s ease 1s;
+  animation:waveRightHand 1.2s ease 1s;
   transition: none;
 }
 .vue_3.fixed .gauche #pg3_robotR_eyes {
   -webkit-animation: robotROverEyes 1.5s ease 0s 2;
   animation: robotROverEyes 1.5s ease 0s 2;
-}
-.vue_3.fixed .gauche .robots_wrapper_left .shade {
-  -webkit-animation: robotRShade .85s ease 3.09s 10;
-  animation: robotRShade .85s ease 3.09s 10;
 }
 @-webkit-keyframes robotROverEyes {
   0%, 100%, 40%, 56%, 62%, 78% {
@@ -1541,7 +1519,7 @@ main{
     transform: scaleY(.3);
   }
 }
-@-webkit-keyframes waveLeftHand {
+@-webkit-keyframes waveRightHand {
   0%, 100% {
     -webkit-transform: rotateZ(-18deg);
   }
@@ -1552,7 +1530,7 @@ main{
     -webkit-transform: rotateZ(-32deg);
   }
 }
-@keyframes waveLeftHand {
+@keyframes waveRightHand {
   0%, 100% {
     transform: rotateZ(-18deg);
   }

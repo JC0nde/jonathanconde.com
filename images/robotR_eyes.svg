@@ -5,15 +5,11 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="374.2"
-   height="339.6"
-   viewBox="0 0 374.2 339.6"
-   id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="purple_eyes.svg">
+   id="svg2"
+   viewBox="0 0 374.2 339.6"
+   height="339.6"
+   width="374.2">
   <metadata
      id="metadata18">
     <rdf:RDF>
@@ -22,59 +18,40 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs16" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     id="namedview14"
-     showgrid="false"
-     inkscape:zoom="0.95641121"
-     inkscape:cx="-274.26965"
-     inkscape:cy="17.811725"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
   <ellipse
-     cx="184.3"
-     cy="85.300003"
-     rx="7.6999998"
-     ry="7.8000002"
+     style="fill:#ffffff"
      id="ellipse4"
-     style="fill:#ffffff" />
+     ry="7.8000002"
+     rx="7.6999998"
+     cy="83.938354"
+     cx="177.84612" />
   <ellipse
-     cx="184.5"
-     cy="85.400002"
-     rx="4.9000001"
+     id="ellipse6"
      ry="4.3000002"
-     id="ellipse6" />
+     rx="4.9000001"
+     cy="84.038353"
+     cx="178.04611" />
   <g
-     id="g8"
-     transform="translate(-74,-20)">
+     transform="translate(-80.453883,-21.36165)"
+     id="g8">
     <ellipse
-       cx="308.5"
-       cy="103.3"
-       rx="7.6999998"
-       ry="7.8000002"
+       style="fill:#ffffff"
        id="ellipse10"
-       style="fill:#ffffff" />
+       ry="7.8000002"
+       rx="7.6999998"
+       cy="103.3"
+       cx="308.5" />
     <ellipse
-       cx="308.60001"
-       cy="103.4"
-       rx="4.9000001"
+       id="ellipse12"
        ry="4.3000002"
-       id="ellipse12" />
+       rx="4.9000001"
+       cy="103.4"
+       cx="308.60001" />
   </g>
 </svg>
