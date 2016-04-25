@@ -681,50 +681,6 @@ main{
   background-image: url("../images/contact.svg");
 }
 /* LOGO */
-#C {
-  opacity:1;
-  fill:none;
-  fill-opacity:1;
-  stroke:#9B9B9B;
-  stroke-width:105.40011597;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-miterlimit:4;
-  stroke-dasharray:none;
-  stroke-opacity:1;
-}
-#point {
-  fill:#9B9B9B;
-  fill-opacity:1;
-  fill-rule:evenodd;
-  stroke:none;
-  stroke-width:0.62592328px;
-  stroke-linecap:butt;
-  stroke-linejoin:miter;
-  stroke-opacity:1;
-}
-#change1 {
-  opacity:1;
-  fill:none;
-  fill-opacity:1;
-  stroke-width:47.07203674;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-miterlimit:4;
-  stroke-dasharray:none;
-  stroke-opacity:1;
-}
-#change2 {
-  opacity:1;
-  fill:none;
-  fill-opacity:1;
-  stroke-width:47.05011368;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-miterlimit:4;
-  stroke-dasharray:none;
-  stroke-opacity:1;
-}
 #logo_svg {
   bottom: 0.7vh;
   height: 32vh;
