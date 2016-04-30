@@ -750,7 +750,7 @@ main{
   width: 25vh;
   z-index: 4;
 }
-#fleche_bas i {
+#fleche_bas span {
   bottom: 0;
   display: block;
   filter: grayscale(80%);
@@ -763,7 +763,7 @@ main{
   transition: transform 0.35s ease 0s, -webkit-filter 0.2s ease 0s, filter 0.2s ease 0s;
   width: 33%;
 }
-#fleche_bas i:after, #fleche_bas i:before {
+#fleche_bas span:after, #fleche_bas span:before {
                        -webkit-animation-duration: 1s;
                        animation-duration: 1s;
                        -webkit-animation-iteration-count: infinite;
@@ -778,11 +778,11 @@ main{
                        top: 0;
                        width: 100%;
                      }
-#fleche_bas i:before {
+#fleche_bas span:before {
   -webkit-animation-name: arrowDownMain;
   animation-name: arrowDownMain;
 }
-#fleche_bas i:after {
+#fleche_bas span:after {
   -webkit-animation-name: arrowDownShadow;
   animation-name: arrowDownShadow;
 }
@@ -794,11 +794,11 @@ main{
   bottom: 1.5%;
   opacity: 1;
 }
-.vue_1.fixed #fleche_bas i {
+.vue_1.fixed #fleche_bas span {
   webkit-filter: hue-rotate(0deg);
   filter: hue-rotate(0deg);
 }
-.vue_2 #fleche_bas i {
+.vue_2 #fleche_bas span {
   -webkit-filter: hue-rotate(160deg);
   filter: hue-rotate(160deg);
 }
@@ -2630,5 +2630,10 @@ main{
   .social_on.soc_list {
     background-color: #f2f2f2;
     height: 100%;
+  }
+}
+@media print {
+  body{
+
   }
 }
