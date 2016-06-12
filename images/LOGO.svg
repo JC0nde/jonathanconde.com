@@ -28,15 +28,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.43492378"
-     inkscape:cx="142.85378"
-     inkscape:cy="233.94903"
+     inkscape:zoom="0.90849718"
+     inkscape:cx="527.09385"
+     inkscape:cy="233.24738"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="898"
+     inkscape:window-width="1890"
      inkscape:window-height="1050"
-     inkscape:window-x="1004"
+     inkscape:window-x="12"
      inkscape:window-y="12"
      inkscape:window-maximized="0"
      showguides="true"
@@ -64,6 +64,26 @@
        position="431.72975,549.71705"
        orientation="0,1"
        id="guide4470" />
+    <sodipodi:guide
+       position="439.50286,653.65679"
+       orientation="1,0"
+       id="guide4159" />
+    <sodipodi:guide
+       position="491.0265,648.03796"
+       orientation="1,0"
+       id="guide4161" />
+    <sodipodi:guide
+       position="335.35656,925.07248"
+       orientation="0,1"
+       id="guide4176" />
+    <sodipodi:guide
+       position="465.28529,893.94979"
+       orientation="1,0"
+       id="guide4178" />
+    <sodipodi:guide
+       position="410.41674,960.16829"
+       orientation="0,1"
+       id="guide4184" />
   </sodipodi:namedview>
   <metadata
      id="metadata4141">
@@ -109,8 +129,8 @@
        inkscape:export-xdpi="15.088843"
        inkscape:export-ydpi="15.088843" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#00b9be;stroke-width:47.07203674;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 427.03324,383.62351 425.89665,162.93528"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#00b9be;stroke-width:47.18945312;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 426.94936,381.74488 425.85361,151.68251"
        id="change1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc"
