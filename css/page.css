@@ -415,47 +415,47 @@ main{
   background-size: 100% 100%;
   will-change: transform;
 }
-.vue_1 .mol_5 {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  right: 0;
-    background-image: url(../images/movingdots.svg);
-    -webkit-transform-origin: center top;
-    -ms-transform-origin: center top;
-    transform-origin: center top;
-    -webkit-transform: scaleY(0);
-    transform: scaleY(0);
-    -ms-transform: scaleY(.001);
-    transition-duration: 1s;
-    transition-property: -webkit-transform;
-    transition-property: transform;
-    transition-timing-function: ease;
-  /* position: absolute; */
-    /* width: 132vmin; */
-    /* height: 40vmin; */
-    /* top: 0; */
-    /* right: 100%; */
-    /* opacity: 0; */
-    /* background-image: url(../images/movingdots.svg); */
-    /* background-size: cover; */
-    /* background-position: center bottom; */
-    /* -webkit-transform: translate3d(0,0,0); */
-    /* transform: translate3d(0,0,0); */
-    /* transition-property: opacity,right; */
-    /* transition-duration: .82s; */
-    /* transition-delay: .7s; */
-    /* z-index: 0; */
-    /* -webkit-backface-visibility: hidden; */
-}
-.vue_1.fixed .mol_5 {
-    transition-delay: .68s;
-    transition-duration: 1s;
-    opacity: .55;
-  /* right: 25%; */
-    /* opacity: 1; */
-}
+/* .vue_1 .mol_5 { */
+/*   position: absolute; */
+/*   height: 100%; */
+/*   width: 100%; */
+/*   top: 0; */
+/*   right: 0; */
+/*     background-image: url(../images/movingdots.svg); */
+/*     -webkit-transform-origin: center top; */
+/*     -ms-transform-origin: center top; */
+/*     transform-origin: center top; */
+/*     -webkit-transform: scaleY(0); */
+/*     transform: scaleY(0); */
+/*     -ms-transform: scaleY(.001); */
+/*     transition-duration: 1s; */
+/*     transition-property: -webkit-transform; */
+/*     transition-property: transform; */
+/*     transition-timing-function: ease; */
+/*   /\* position: absolute; *\/ */
+/*     /\* width: 132vmin; *\/ */
+/*     /\* height: 40vmin; *\/ */
+/*     /\* top: 0; *\/ */
+/*     /\* right: 100%; *\/ */
+/*     /\* opacity: 0; *\/ */
+/*     /\* background-image: url(../images/movingdots.svg); *\/ */
+/*     /\* background-size: cover; *\/ */
+/*     /\* background-position: center bottom; *\/ */
+/*     /\* -webkit-transform: translate3d(0,0,0); *\/ */
+/*     /\* transform: translate3d(0,0,0); *\/ */
+/*     /\* transition-property: opacity,right; *\/ */
+/*     /\* transition-duration: .82s; *\/ */
+/*     /\* transition-delay: .7s; *\/ */
+/*     /\* z-index: 0; *\/ */
+/*     /\* -webkit-backface-visibility: hidden; *\/ */
+/* } */
+/* .vue_1.fixed .mol_5 { */
+/*     transition-delay: .68s; */
+/*     transition-duration: 1s; */
+/*     opacity: .55; */
+/*   /\* right: 25%; *\/ */
+/*     /\* opacity: 1; *\/ */
+/* } */
 /* MAIN NAV */
 #nav {
   display: -webkit-flex;

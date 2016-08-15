@@ -14,8 +14,8 @@
         };
         head.appendChild(script);
     }
-    getScript('https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',function(){
-        getScript('https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js',function(){
+    getScript('./js/jquery-3.1.0.min.js',function(){
+        getScript('./js/swiper.jquery.min.js',function(){
             //your tab code here
             setTimeout(function(){
                 $("body").addClass("fixed");
