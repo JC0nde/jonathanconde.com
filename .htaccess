@@ -6,6 +6,7 @@ RewriteRule .* ? [F,L]
 
 AddDefaultCharset "utf-8"
 DefaultLanguage "fr-CH"
+AddType  application/font-woff2  .woff2
 
 SetOutputFilter DEFLATE
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
