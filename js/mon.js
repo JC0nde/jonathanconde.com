@@ -55,7 +55,7 @@
 
                     case 1:
                         $("body").attr("class", "vue_2");
-                        // $('section.page_2').removeClass('stayput');
+                        $('section.page_2').removeClass('stayput');
                         break;
                     case 2:
                         $("body").attr("class", "vue_3");
