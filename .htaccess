@@ -1,14 +1,15 @@
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} !^www
-RewriteCond %{HTTP_HOST} ^(.*)\.jonathanconde\.com
-RewriteRule ^(.*)$ https://jonathanconde.com/%1/$1 [L,NC,P]
-
 RewriteCond %{HTTP:X-Forwarded-Proto} !https
-RewriteRule (.*) https://votre-domaine.com/$1 [R=301,L]
+RewriteRule ^(.*)$ https://jonathanconde.com/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www.jonathanconde.com$
 RewriteRule ^(.*) https://jonathanconde.com/$1 [QSA,L,R=301]
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !^www
+RewriteCond %{HTTP_HOST} ^(.*)\.jonathanconde\.com
+RewriteRule ^(.*)$ https://jonathanconde.com/%1/$1 [L,NC,P]
 
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.* 
 RewriteRule .* ? [F,L]
